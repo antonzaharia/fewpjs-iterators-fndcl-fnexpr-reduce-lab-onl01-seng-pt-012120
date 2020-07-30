@@ -2,6 +2,6 @@ const batteryBatches = [4, 5, 3, 4, 4, 6, 5];
 
 // Code your solution here
 function totalBatteries() {
-  let total = batteryBatches.reduce(function(total, element){ element + total}, 0);
+  let total = batteryBatches.reduce(function(total, element){ return element + total}, 0);
   return total;
 }
